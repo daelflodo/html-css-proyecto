@@ -1,0 +1,36 @@
+
+.box{
+    margin: 0 25px;
+    border: 2px solid black;
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+
+@keyframes animat{
+    to{
+        left: 0;
+        background-color: red;
+    }
+    from{
+        left: 250px;
+        background-color: blue;
+    }
+}
+
+
+.linear{
+    animation: animat 2s linear infinite alternate;
+}
+.ease{
+    animation: animat 2s ease infinite alternate;
+}
+.ease-in{
+    animation: animat 2s ease-in infinite alternate;
+}
+.ease-out{
+    animation: animat 2s ease-out infinite alternate;
+}
+.ease-in-out{
+    animation: animat 2s ease-in-out infinite alternate;
+}

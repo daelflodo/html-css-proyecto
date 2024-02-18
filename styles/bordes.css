@@ -1,0 +1,41 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+    /* grid-template-rows: 33% 33% auto; */
+    gap: 50px;
+    background-color: grey;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+.grid-container > div{
+    background-color: rgb(191, 191, 191);
+    text-align: center;
+}
+.box{
+    width: 150px;
+    height: 150px;
+}
+.solid{
+    border: 2px solid black;
+}
+.dotted{
+    border: 2px dotted black;
+}
+.dashed{
+    border: 2px dashed black;
+}
+.double{
+    border: 8px double black;
+}
+.groove{
+    border: 10px groove black;
+}
+.ridge{
+    border: 10px ridge black;
+}
+.inset{
+    border: 5px inset black;
+}
+.outset{
+    border: 5px outset black;
+}
